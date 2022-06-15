@@ -1,4 +1,4 @@
-/* (A) WRAPPER */
+/* WRAPPER */
 * {
   font-family: arial, sans-serif;
   box-sizing: border-box;
@@ -12,7 +12,7 @@ body {
 #poslist { width: 70%; }
 #poscart { width: 30%; }
 
-/* (B) PRODUCTS LIST */
+/* PRODUCTS LIST */
 #poslist {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -29,7 +29,7 @@ body {
 .pname { font-weight: 700; }
 .pprice { color: #639aff; }
 
-/* (C) CART */
+/* CART */
 #poscart {
   padding: 10px;
   background: #f7f7f7;
@@ -51,5 +51,5 @@ body {
 }
 #cempty, #ccheckout { margin: 5px; }
 
-/* (D) RECEIPT */
+/* RECEIPT */
 #posreceipt { display: none; }
